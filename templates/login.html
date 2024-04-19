@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <form action="/login" method="post">
+        <h2>Login</h2>
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" name="telefone"><br><br>
+        <label for="senha">Password:</label>
+        <input type="password" id="senha" name="senha"><br><br>
+        <input type="submit" value="Login">
+        <p>Não tem uma conta? <a href="/cadastro">Cadastre-se aqui</a>.</p>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e4edd4;
+}
+
+#top-bar {
+    background-color: #e27396;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#chat-container {
+    padding: 10px;
+    height: calc(100vh - 150px);
+    overflow-y: scroll;
+}
+
+#chat-container p {
+    background-color: #eec3dece;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#input-container {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #efcfe3a5;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#input-container input[type="text"] {
+    padding: 10px;
+    border: none;
+    outline: none;
+    flex: 1;
+}
+#usuario {
+    padding: 10px;
+    border: none;
+    outline: none;
+    flex: 1;
+}
+
+#usuario {
+    margin-right: 10px;
+    width: 30%;
+}
+
+#input-container input#mensagem {
+    flex: 1;
+}
+
+#input-container button {
+    padding: 10px 20px;
+    background-color: #e27396;
+    color: #FFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
